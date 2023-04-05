@@ -35,8 +35,14 @@ public class MyScriptFile : MonoBehaviour
                     Debug.Log("Entered flee or hide state");
                 }
                 break;
-        }
 
-        
+            default:
+                {
+                    // 다른 모든 상태의 기본값이다
+                    // CHASE 상태일 때 여기의 코드가 실행된다
+                    Debug.Log("Entered chase state");
+                }
+                break;
+        }
     }
 }
