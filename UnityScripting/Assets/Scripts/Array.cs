@@ -13,6 +13,10 @@ public class Array : MonoBehaviour
         MyObjects = new GameObject[3];
         // 씬에 MainCamera 태그로 설정된 카메라가 있어야 한다
         MyObjects[0] = Camera.main.gameObject;
+
+        // GameObjec.Find 함수를 사용해 씬의 오브젝트를 이름으로 찾는다
+        MyObjects[1] = GameObject.Find("Cube");
+        MyObjects[2] = GameObject.Find("Cylinder");
     }
 
     // Update is called once per frame
