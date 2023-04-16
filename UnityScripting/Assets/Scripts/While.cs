@@ -19,7 +19,6 @@ public class While : MonoBehaviour
             // 카운터 증가
             ++NumberOfMessages;
         }
-
     }
 
     // Update is called once per frame
