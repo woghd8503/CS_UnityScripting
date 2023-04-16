@@ -11,7 +11,6 @@ public class MyScriptFile : MonoBehaviour
     public EnemyState ActiveState = EnemyState.CHASE;
 
     // 여기에서 초기화한다
-
     void Start()
     {
         
@@ -20,6 +19,17 @@ public class MyScriptFile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // ActiveState 변수를 검사한다
+        switch(ActiveState)
+        {
+            case EnemyState.FIGHT:
+                {
+                    // ELIGHT 코드를 여기서 실행한다
+                    Debug.Log("Entered fight state");
+                }
+                break;
+        }
+
+
     }
 }
