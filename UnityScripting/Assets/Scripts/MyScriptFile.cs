@@ -28,8 +28,15 @@ public class MyScriptFile : MonoBehaviour
                     Debug.Log("Entered fight state");
                 }
                 break;
+            case EnemyState.FLEE:
+            case EnemyState.HIDE:
+                {
+                    // FLEE와 HIDE는 같은 동작을 한다.
+                    Debug.Log("Entered flee or hide state");
+                }
+                break;
         }
 
-
+        
     }
 }
