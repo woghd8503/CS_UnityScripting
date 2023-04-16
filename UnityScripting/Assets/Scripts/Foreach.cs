@@ -16,6 +16,12 @@ public class Foreach : MonoBehaviour
             // 오브젝트를 파괴한다
             DestroyImmediate(obj);
         }
+
+        for(int i = MyObjects.Length-1; i >= 0; i--)
+        {
+            // 오브젝트를 파괴한다
+            Destroy(MyObjects[i]);
+        }
     }
 
     // Update is called once per frame
