@@ -15,4 +15,31 @@ public class MyCharacter : MonoBehaviour
     {
         Debug.Log("Hello, my friend");
     }
+
+    // ----------------------------------------------
+    public class ManCharacter : MyCharacter
+    {
+        public override void SayGreeting()
+        {
+            Debug.Log("Hello, I'm a man");
+        }
+    }
+
+    // ----------------------------------------------
+    public class WomanCharacter : MyCharacter
+    {
+        public override void SayGreeting()
+        {
+            Debug.Log("Hello, I'm a woman");
+        }
+    }
+
+    // ----------------------------------------------
+    public class OrCharacter : MyCharacter
+    {
+        public override void SayGreeting()
+        {
+            Debug.Log("Hello, I'm an Orc");
+        }
+    }
 }
