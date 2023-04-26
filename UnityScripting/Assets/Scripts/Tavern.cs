@@ -16,6 +16,8 @@ public class Tavern : MonoBehaviour
         Characters = new MyCharacter[5];
 
         // MyCharacter 형식의 배열에 다른 형식을 가진 캐릭터를 추가한다.
+        Characters[0] = new ManCharacter();
+
 
     }
 }
