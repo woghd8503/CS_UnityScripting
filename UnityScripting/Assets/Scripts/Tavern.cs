@@ -16,11 +16,11 @@ public class Tavern : MonoBehaviour
         Characters = new MyCharacter[5];
 
         // MyCharacter 형식의 배열에 다른 형식을 가진 캐릭터를 추가한다.
-        Characters[0] = new ManCharacter();
-        Characters[1] = new WomanCharacter();
-        Characters[2] = new OrcCharacter();
-        Characters[3] = new ManCharacter();
-        Characters[4] = new WomanCharacter();
+        //Characters[0] = new ManCharacter();
+        //Characters[1] = new WomanCharacter();
+        //Characters[2] = new OrcCharacter();
+        //Characters[3] = new ManCharacter();
+        //Characters[4] = new WomanCharacter();
 
         // 술집에 들어가는 기능을 실행한다
         EnterTavern();
