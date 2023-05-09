@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class While : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         // 몇 개의 메시지가 출력되었느지를 센다
