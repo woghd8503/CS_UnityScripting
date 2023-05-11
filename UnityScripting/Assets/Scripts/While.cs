@@ -6,7 +6,6 @@ public class While : MonoBehaviour
 {
     void Start()
     {
-
         // 몇 개의 메시지가 출력되었느지를 센다
         int NumberOfMessages = 0;
         
