@@ -19,5 +19,4 @@ public class While : MonoBehaviour
             ++NumberOfMessages;
         }
     }
-
 }
