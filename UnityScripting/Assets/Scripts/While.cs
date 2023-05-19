@@ -18,5 +18,6 @@ public class While : MonoBehaviour
             // 카운터 증가
             ++NumberOfMessages;
         }
+
     }
 }
