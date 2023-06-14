@@ -18,6 +18,7 @@ Debug.Log("Pos: " + transform.position.ToString());
 #endif
             // #endif 바깥에 위치하므로 그냥 실행된다.
             Console.Write("Start function called");
+
         }
     }
 }
