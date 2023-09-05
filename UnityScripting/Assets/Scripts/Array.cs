@@ -9,19 +9,13 @@ public class Array : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ¹è¿­ÀÇ ³»¿ëÀ» ÄÚµå·Î Ã¤¿î´Ù
+        // ë°°ì—´ì˜ ë‚´ìš©ì„ ì½”ë“œë¡œ ì±„ìš´ë‹¤
         MyObjects = new GameObject[3];
-        // ¾À¿¡ MainCamera ÅÂ±×·Î ¼³Á¤µÈ Ä«¸Ş¶ó°¡ ÀÖ¾î¾ß ÇÑ´Ù
+        // ì”¬ì— MainCamera íƒœê·¸ë¡œ ì„¤ì •ëœ ì¹´ë©”ë¼ê°€ ìˆì–´ì•¼ í•œë‹¤
         MyObjects[0] = Camera.main.gameObject;
 
-        // GameObjec.Find ÇÔ¼ö¸¦ »ç¿ëÇØ ¾ÀÀÇ ¿ÀºêÁ§Æ®¸¦ ÀÌ¸§À¸·Î Ã£´Â´Ù
+        // GameObjec.Find í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•´ ì”¬ì˜ ì˜¤ë¸Œì íŠ¸ë¥¼ ì´ë¦„ìœ¼ë¡œ ì°¾ëŠ”ë‹¤
         MyObjects[1] = GameObject.Find("Cube");
         MyObjects[2] = GameObject.Find("Cylinder");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
